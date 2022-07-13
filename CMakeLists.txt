@@ -14,6 +14,7 @@ add_executable(
         main.cpp 
         methods.cpp
         methods2.cpp
+        methods3.cpp
 )
 
 message("[configuration end]")
