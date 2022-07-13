@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o -o JD_HELLO_WORLD 

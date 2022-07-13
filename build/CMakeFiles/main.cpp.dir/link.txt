@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/main.cpp.dir/methods.cpp.o CMakeFiles/main.cpp.dir/methods2.cpp.o -o main.cpp 
