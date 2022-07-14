@@ -1,3 +1,0 @@
-C:/Users/jdyun/Desktop/cmake-test/_YJD_cmake_practice2/build/vs2022/CMakeFiles/JD_HELLO_WORLD.dir
-C:/Users/jdyun/Desktop/cmake-test/_YJD_cmake_practice2/build/vs2022/CMakeFiles/ALL_BUILD.dir
-C:/Users/jdyun/Desktop/cmake-test/_YJD_cmake_practice2/build/vs2022/CMakeFiles/ZERO_CHECK.dir
