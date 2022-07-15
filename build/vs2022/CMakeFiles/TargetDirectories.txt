@@ -1,3 +1,11 @@
 C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/CMakeFiles/JD_HELLO_WORLD.dir
 C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/CMakeFiles/ALL_BUILD.dir
 C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/CMakeFiles/ZERO_CHECK.dir
+C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libcalculator/CMakeFiles/libcalculator.dir
+C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libcalculator/CMakeFiles/ALL_BUILD.dir
+C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libcommon/build/CMakeFiles/libcommon.dir
+C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libcommon/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libdiv/build/CMakeFiles/libdiv.dir
+C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libdiv/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libmul/build/CMakeFiles/libmul.dir
+C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libmul/build/CMakeFiles/ALL_BUILD.dir

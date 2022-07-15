@@ -1,0 +1,10 @@
+^C:\USERS\JDYUN\DESKTOP\CMAKE-TEST\CMAKE_SELF_TUTORIAL\LIBCALCULATOR\BUILD\CMAKEFILES\9AF85514B3533323C101A71B2AC536AF\GENERATE.STAMP.RULE
+setlocal
+D:\_Dev\cmake-3.21.4-windows-x86_64\bin\cmake.exe -SC:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libcalculator -BC:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libcalculator/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libcalculator/build/libcalculator.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

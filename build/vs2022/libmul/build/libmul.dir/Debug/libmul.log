@@ -1,0 +1,5 @@
+﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31332 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\libmul\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"libmul.dir\Debug\\" /Fd"C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\build\vs2022\bin\Debug\libmul.pdb" /external:W3 /Gd /TP /errorReport:prompt "C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\libmul\src\mul.cpp"
+  mul.cpp
+  libmul.vcxproj -> C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\build\vs2022\bin\Debug\libmul.lib

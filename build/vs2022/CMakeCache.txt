@@ -188,6 +188,42 @@ JD_HELLO_WORLD_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 JD_HELLO_WORLD_SOURCE_DIR:STATIC=C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial
 
+//Value Computed by CMake
+libcalculator_BINARY_DIR:STATIC=C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libcalculator
+
+//Value Computed by CMake
+libcalculator_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+libcalculator_SOURCE_DIR:STATIC=C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libcalculator
+
+//Value Computed by CMake
+libcommon_BINARY_DIR:STATIC=C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libcommon/build
+
+//Value Computed by CMake
+libcommon_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+libcommon_SOURCE_DIR:STATIC=C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libcommon
+
+//Value Computed by CMake
+libdiv_BINARY_DIR:STATIC=C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libdiv/build
+
+//Value Computed by CMake
+libdiv_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+libdiv_SOURCE_DIR:STATIC=C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libdiv
+
+//Value Computed by CMake
+libmul_BINARY_DIR:STATIC=C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libmul/build
+
+//Value Computed by CMake
+libmul_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+libmul_SOURCE_DIR:STATIC=C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libmul
+
 
 ########################
 # INTERNAL cache entries
@@ -261,7 +297,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

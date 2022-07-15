@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libtest/cmake_install.cmake")
+  include("C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/libcalculator/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

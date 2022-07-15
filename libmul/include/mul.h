@@ -1,0 +1,1 @@
+double __mul(double a, double b);

@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\libdiv\src\div.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\libdiv\include\div.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\libdiv\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3363B17F-2C6C-30DB-BD8C-4E672C9AF837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{22B994D7-9ED9-33EC-96DF-05A4D9F15CB6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

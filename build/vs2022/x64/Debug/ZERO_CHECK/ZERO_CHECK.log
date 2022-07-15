@@ -1,0 +1,23 @@
+﻿  Checking Build System
+  CMake is re-running because C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/CMakeFiles/generate.stamp is out-of-date.
+    the file 'C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/CMakeLists.txt'
+    is newer than 'C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/CMakeFiles/generate.stamp.depend'
+    result='-1'
+  -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19044.
+  [project setting end]
+  	?꾨줈?앺듃 紐?: JD_HELLO_WORLD
+  	而댄뙆?쇰윭 : D:/Program Files/Microsoft Visual Studio/2022/Enterprise/VC/Tools/MSVC/14.32.31326/bin/Hostx64/x64/cl.exe
+  	踰꾩쟾 : 1.2.4
+  enter subdirectory : C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libcalculator
+  enter subdirectory : C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libcommon
+  C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/bin/
+  leave subdirectory : C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libcommon
+  enter subdirectory : C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libdiv
+  leave subdirectory : C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libdiv
+  enter subdirectory : C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libmul
+  leave subdirectory : C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libmul
+  leave subdirectory : C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libcalculator
+  [configuration end]
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022

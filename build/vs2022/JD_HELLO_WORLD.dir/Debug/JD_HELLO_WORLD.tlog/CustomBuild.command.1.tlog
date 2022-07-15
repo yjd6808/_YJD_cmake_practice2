@@ -1,0 +1,10 @@
+^C:\USERS\JDYUN\DESKTOP\CMAKE-TEST\CMAKE_SELF_TUTORIAL\CMAKELISTS.TXT
+setlocal
+D:\_Dev\cmake-3.21.4-windows-x86_64\bin\cmake.exe -SC:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial -BC:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022 --check-stamp-file C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
