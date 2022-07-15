@@ -1,3 +1,3 @@
-/home/jdyun/Programming/cmake-test/build/makefiles/CMakeFiles/JD_HELLO_WORLD.dir
-/home/jdyun/Programming/cmake-test/build/makefiles/CMakeFiles/edit_cache.dir
-/home/jdyun/Programming/cmake-test/build/makefiles/CMakeFiles/rebuild_cache.dir
+/home/jdyun/Programming/cmake-self-tutorial/build/makefiles/CMakeFiles/JD_HELLO_WORLD.dir
+/home/jdyun/Programming/cmake-self-tutorial/build/makefiles/CMakeFiles/edit_cache.dir
+/home/jdyun/Programming/cmake-self-tutorial/build/makefiles/CMakeFiles/rebuild_cache.dir

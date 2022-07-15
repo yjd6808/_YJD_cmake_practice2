@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/jdyun/Programming/cmake-test
+CMAKE_SOURCE_DIR = /home/jdyun/Programming/cmake-self-tutorial
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jdyun/Programming/cmake-test/build/makefiles
+CMAKE_BINARY_DIR = /home/jdyun/Programming/cmake-self-tutorial/build/makefiles
 
 # Include any dependencies generated for this target.
 include CMakeFiles/JD_HELLO_WORLD.dir/depend.make
@@ -72,44 +72,44 @@ include CMakeFiles/JD_HELLO_WORLD.dir/flags.make
 CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o: CMakeFiles/JD_HELLO_WORLD.dir/flags.make
 CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o: ../../main.cpp
 CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o: CMakeFiles/JD_HELLO_WORLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdyun/Programming/cmake-test/build/makefiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o -MF CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o.d -o CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o -c /home/jdyun/Programming/cmake-test/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdyun/Programming/cmake-self-tutorial/build/makefiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o -MF CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o.d -o CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o -c /home/jdyun/Programming/cmake-self-tutorial/main.cpp
 
 CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdyun/Programming/cmake-test/main.cpp > CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdyun/Programming/cmake-self-tutorial/main.cpp > CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.i
 
 CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdyun/Programming/cmake-test/main.cpp -o CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdyun/Programming/cmake-self-tutorial/main.cpp -o CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.s
 
 CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o: CMakeFiles/JD_HELLO_WORLD.dir/flags.make
 CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o: ../../methods.cpp
 CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o: CMakeFiles/JD_HELLO_WORLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdyun/Programming/cmake-test/build/makefiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o -MF CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o.d -o CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o -c /home/jdyun/Programming/cmake-test/methods.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdyun/Programming/cmake-self-tutorial/build/makefiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o -MF CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o.d -o CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o -c /home/jdyun/Programming/cmake-self-tutorial/methods.cpp
 
 CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdyun/Programming/cmake-test/methods.cpp > CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdyun/Programming/cmake-self-tutorial/methods.cpp > CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.i
 
 CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdyun/Programming/cmake-test/methods.cpp -o CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdyun/Programming/cmake-self-tutorial/methods.cpp -o CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.s
 
 CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o: CMakeFiles/JD_HELLO_WORLD.dir/flags.make
 CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o: ../../methods2.cpp
 CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o: CMakeFiles/JD_HELLO_WORLD.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdyun/Programming/cmake-test/build/makefiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o -MF CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o.d -o CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o -c /home/jdyun/Programming/cmake-test/methods2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/jdyun/Programming/cmake-self-tutorial/build/makefiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o -MF CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o.d -o CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o -c /home/jdyun/Programming/cmake-self-tutorial/methods2.cpp
 
 CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdyun/Programming/cmake-test/methods2.cpp > CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jdyun/Programming/cmake-self-tutorial/methods2.cpp > CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.i
 
 CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdyun/Programming/cmake-test/methods2.cpp -o CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jdyun/Programming/cmake-self-tutorial/methods2.cpp -o CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.s
 
 # Object files for target JD_HELLO_WORLD
 JD_HELLO_WORLD_OBJECTS = \
@@ -125,7 +125,7 @@ JD_HELLO_WORLD: CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o
 JD_HELLO_WORLD: CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o
 JD_HELLO_WORLD: CMakeFiles/JD_HELLO_WORLD.dir/build.make
 JD_HELLO_WORLD: CMakeFiles/JD_HELLO_WORLD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jdyun/Programming/cmake-test/build/makefiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable JD_HELLO_WORLD"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/jdyun/Programming/cmake-self-tutorial/build/makefiles/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable JD_HELLO_WORLD"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/JD_HELLO_WORLD.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -137,6 +137,6 @@ CMakeFiles/JD_HELLO_WORLD.dir/clean:
 .PHONY : CMakeFiles/JD_HELLO_WORLD.dir/clean
 
 CMakeFiles/JD_HELLO_WORLD.dir/depend:
-	cd /home/jdyun/Programming/cmake-test/build/makefiles && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jdyun/Programming/cmake-test /home/jdyun/Programming/cmake-test /home/jdyun/Programming/cmake-test/build/makefiles /home/jdyun/Programming/cmake-test/build/makefiles /home/jdyun/Programming/cmake-test/build/makefiles/CMakeFiles/JD_HELLO_WORLD.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jdyun/Programming/cmake-self-tutorial/build/makefiles && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jdyun/Programming/cmake-self-tutorial /home/jdyun/Programming/cmake-self-tutorial /home/jdyun/Programming/cmake-self-tutorial/build/makefiles /home/jdyun/Programming/cmake-self-tutorial/build/makefiles /home/jdyun/Programming/cmake-self-tutorial/build/makefiles/CMakeFiles/JD_HELLO_WORLD.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/JD_HELLO_WORLD.dir/depend
 

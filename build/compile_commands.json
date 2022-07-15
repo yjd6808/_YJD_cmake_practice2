@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/jdyun/Programming/cmake-self-tutorial/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/JD_HELLO_WORLD.dir/main.cpp.o -c /home/jdyun/Programming/cmake-self-tutorial/main.cpp",
+  "file": "/home/jdyun/Programming/cmake-self-tutorial/main.cpp"
+},
+{
+  "directory": "/home/jdyun/Programming/cmake-self-tutorial/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/JD_HELLO_WORLD.dir/methods.cpp.o -c /home/jdyun/Programming/cmake-self-tutorial/methods.cpp",
+  "file": "/home/jdyun/Programming/cmake-self-tutorial/methods.cpp"
+},
+{
+  "directory": "/home/jdyun/Programming/cmake-self-tutorial/build",
+  "command": "/usr/bin/c++ -g -o CMakeFiles/JD_HELLO_WORLD.dir/methods2.cpp.o -c /home/jdyun/Programming/cmake-self-tutorial/methods2.cpp",
+  "file": "/home/jdyun/Programming/cmake-self-tutorial/methods2.cpp"
+}
+]
