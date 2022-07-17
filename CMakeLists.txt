@@ -1,5 +1,9 @@
+include(function.cmake)
+include(GenerateExportHeader)
+
 cmake_minimum_required(VERSION 3.14.2)
 
+option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
 
 project(JD_HELLO_WORLD 
         LANGUAGES CXX 
@@ -18,7 +22,6 @@ set(CMAKE_PDB_OUTPUT_DIRECTORY          ${CMAKE_BINARY_DIR}/bin/)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY      ${CMAKE_BINARY_DIR}/bin/)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY      ${CMAKE_BINARY_DIR}/bin/)
 
-
 add_subdirectory(libcalculator)
 add_executable(
     ${PROJECT_NAME} 
@@ -26,6 +29,7 @@ add_executable(
         methods.cpp
         methods2.cpp
 )
+
 
 
 

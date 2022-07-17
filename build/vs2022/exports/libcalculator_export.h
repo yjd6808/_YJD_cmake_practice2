@@ -1,0 +1,42 @@
+
+#ifndef LIBCALCULATOR_EXPORT_H
+#define LIBCALCULATOR_EXPORT_H
+
+#ifdef LIBCALCULATOR_STATIC_DEFINE
+#  define LIBCALCULATOR_EXPORT
+#  define LIBCALCULATOR_NO_EXPORT
+#else
+#  ifndef LIBCALCULATOR_EXPORT
+#    ifdef libcalculator_EXPORTS
+        /* We are building this library */
+#      define LIBCALCULATOR_EXPORT __declspec(dllexport)
+#    else
+        /* We are using this library */
+#      define LIBCALCULATOR_EXPORT __declspec(dllimport)
+#    endif
+#  endif
+
+#  ifndef LIBCALCULATOR_NO_EXPORT
+#    define LIBCALCULATOR_NO_EXPORT 
+#  endif
+#endif
+
+#ifndef LIBCALCULATOR_DEPRECATED
+#  define LIBCALCULATOR_DEPRECATED __declspec(deprecated)
+#endif
+
+#ifndef LIBCALCULATOR_DEPRECATED_EXPORT
+#  define LIBCALCULATOR_DEPRECATED_EXPORT LIBCALCULATOR_EXPORT LIBCALCULATOR_DEPRECATED
+#endif
+
+#ifndef LIBCALCULATOR_DEPRECATED_NO_EXPORT
+#  define LIBCALCULATOR_DEPRECATED_NO_EXPORT LIBCALCULATOR_NO_EXPORT LIBCALCULATOR_DEPRECATED
+#endif
+
+#if 0 /* DEFINE_NO_DEPRECATED */
+#  ifndef LIBCALCULATOR_NO_DEPRECATED
+#    define LIBCALCULATOR_NO_DEPRECATED
+#  endif
+#endif
+
+#endif /* LIBCALCULATOR_EXPORT_H */

@@ -1,5 +1,7 @@
-﻿  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31332 for x64
+﻿  Building Custom Rule C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/libcommon/CMakeLists.txt
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31332 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
-  cl /c /I"C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\libcommon\include" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"libcommon.dir\Debug\\" /Fd"C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\build\vs2022\bin\Debug\libcommon.pdb" /external:W3 /Gd /TP /errorReport:prompt "C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\libcommon\src\printer.cpp"
+  cl /c /I"C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\libcommon\include" /I"C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\build\vs2022\exports" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _WINDLL /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D libcommon_EXPORTS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"libcommon.dir\Debug\\" /Fd"libcommon.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:prompt "C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\libcommon\src\printer.cpp"
   printer.cpp
-  libcommon.vcxproj -> C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\build\vs2022\bin\Debug\libcommon.lib
+     Creating library C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/bin/Debug/libcommon.lib and object C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/build/vs2022/bin/Debug/libcommon.exp
+  libcommon.vcxproj -> C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\build\vs2022\bin\Debug\libcommon.dll

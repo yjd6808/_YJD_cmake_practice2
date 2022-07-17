@@ -1,1 +1,10 @@
-﻿  JD_HELLO_WORLD.vcxproj -> C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\build\vs2022\bin\Debug\JD_HELLO_WORLD.exe
+﻿  Building Custom Rule C:/Users/jdyun/Desktop/cmake-test/cmake_self_tutorial/CMakeLists.txt
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.32.31332 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  cl /c /I"C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\libcalculator\include" /I"C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\libcalculator\..\libcommon\include" /I"C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\build\vs2022\exports" /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"JD_HELLO_WORLD.dir\Debug\\" /Fd"JD_HELLO_WORLD.dir\Debug\vc143.pdb" /external:W3 /Gd /TP /errorReport:prompt "C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\main.cpp" "C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\methods.cpp" "C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\methods2.cpp"
+  main.cpp
+C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\main.cpp(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  methods.cpp
+  methods2.cpp
+  Generating Code...
+  JD_HELLO_WORLD.vcxproj -> C:\Users\jdyun\Desktop\cmake-test\cmake_self_tutorial\build\vs2022\bin\Debug\JD_HELLO_WORLD.exe
