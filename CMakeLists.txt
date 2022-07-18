@@ -3,7 +3,7 @@ include(GenerateExportHeader)
 
 cmake_minimum_required(VERSION 3.14.2)
 
-option(BUILD_SHARED_LIBS "Build using shared libraries" ON)
+option(BUILD_SHARED_LIBS "Build using shared libraries" OFF)
 
 project(JD_HELLO_WORLD 
         LANGUAGES CXX 
@@ -30,15 +30,8 @@ add_executable(
         methods2.cpp
 )
 
-
-
-
-#set_target_properties(${PROJECT_NAME} PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/)
-#set_target_properties(${PROJECT_NAME} PROPERTIES ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/)
-#set_target_properties(${PROJECT_NAME} PROPERTIES LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/)
-#set_target_properties(${PROJECT_NAME} PROPERTIES PDB_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin/)
-
 target_link_libraries(${PROJECT_NAME} PRIVATE libcalculator)
+print_target_libraries(${PROJECT_NAME} "")
 
 
 

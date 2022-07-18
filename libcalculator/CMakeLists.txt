@@ -6,7 +6,6 @@ set(libcommon_dir   ../libcommon)
 set(libdiv_dir      ../libdiv)
 set(libmul_dir      ../libmul)
 
-
 project(libcalculator
     LANGUAGES CXX
     VERSION 1.0.0)
