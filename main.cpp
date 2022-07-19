@@ -1,9 +1,9 @@
 #include <iostream>
 
-#include "math/math.h"
+#include "calculator.h"
 
 int main() {
-    std::cout << Math::Add(1, 5) << "\n";
-    std::cout << Math::Sub(5, 10) << "\n";
+    std::cout << Calculator::Add(1, 5) << "\n";
+    std::cout << Calculator::Sub(5, 10) << "\n";
     return 0;
 }

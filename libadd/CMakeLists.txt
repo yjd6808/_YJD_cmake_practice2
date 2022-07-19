@@ -5,5 +5,5 @@ add_library(libadd STATIC
 # 실제로 바이너리에 포함되지 않음
 
 target_include_directories(libadd 
-	PUBLIC ./include
+	PUBLIC include
 )
