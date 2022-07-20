@@ -1,15 +1,13 @@
 cmake_minimum_required(VERSION 3.7.0)
-project(static_example LANGUAGES CXX VERSION 1.0.0)
+project(calculator LANGUAGES CXX VERSION 1.0.0)
 
-# 실행 프로그램 타겟 생성
-add_executable(hello_world main.cpp)
+# 하위 라이브러리 타겟들을 생성하기 위해
+add_subdirectory(libadd)
+add_subdirectory(libsub)
+add_subdirectory(libmath)
 
-# 라이브러리 타겟 생성
-add_library(libadd STATIC
-	addition.cpp
-	addition.h		# 프로젝트에 추가시켜주기 위함(바이너리에 포함되지는 않음)
-)
+add_executable(main_proj main.cpp)
 
-target_link_libraries(hello_world PRIVATE libadd)
+target_link_libraries(main_proj PRIVATE libmath)
 
 
